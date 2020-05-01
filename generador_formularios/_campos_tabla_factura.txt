@@ -1,0 +1,25 @@
+id idk grupo descripcion cliente_nombre cliente_direccion cliente_cif proveedor_nombre proveedor_direccion proveedor_cif numero importe_base tipo_iva iva importe_total fecha_factura fecha_alta fecha_ultimo
+
+id
+idk
+grupo
+descripcion
+cliente_nombre
+cliente_direccion
+cliente_cif
+proveedor_nombre
+proveedor_direccion
+proveedor_cif
+numero
+importe_base
+tipo_iva
+iva
+importe_total
+fecha_factura
+fecha_alta
+fecha_ultimo
+
+
+
+ALTER TABLE `facturas` CHANGE `fecha_ultimo` `fecha_ultimo` TIMESTAMP on update CURRENT_TIMESTAMP NULL DEFAULT CURRENT_TIMESTAMP;
+
